@@ -1,0 +1,21 @@
+{
+  "name": "food-service",
+  "version": "1.0.0",
+  "description": "Food Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/onkiit/learn-microservices/food-service"
+  },
+  "keywords": [
+    "microservice"
+  ],
+  "author": "tikno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
