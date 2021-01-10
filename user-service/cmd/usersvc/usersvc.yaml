@@ -1,0 +1,8 @@
+app:
+  port: "8080"
+
+connections:
+  sql:
+    key: psql
+    uri: "postgresql://tikno:123123@localhost:5432/auth"
+    driver: postgresql
