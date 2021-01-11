@@ -1,5 +1,9 @@
 app:
-  port: "8080"
+  name: usersvc
+  description: User Service using Golang
+  server: 
+    domain_name: ":8081"
+    api_base: /api/v1
 
 connections:
   sql:
