@@ -1,6 +1,7 @@
 app:
   name: usersvc
   description: User Service using Golang
+  debug: true
   server: 
     domain_name: ":8081"
     api_base: /api/v1

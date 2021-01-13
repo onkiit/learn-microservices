@@ -7,5 +7,10 @@ import (
 )
 
 func (s *Services) Login(ctx iris.Context) {
-	log.Println("api login...")
+	user, err := s.userStore.GetByID("123")
+	if err != nil {
+		return
+	}
+
+	log.Println("found user", user)
 }

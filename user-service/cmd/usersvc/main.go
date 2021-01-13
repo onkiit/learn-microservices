@@ -2,8 +2,8 @@ package main
 
 import (
 	_ "github.com/onkiit/learn-microservices/user-service/controllers/auth"
-	"github.com/onkiit/oserver"
-	"github.com/onkiit/oserver/config"
+	sapp "github.com/onkiit/sapp"
+	"github.com/onkiit/sapp/config"
 )
 
 var (
@@ -11,7 +11,7 @@ var (
 )
 
 func Run() {
-	oserver.Run()
+	sapp.RunServer()
 }
 
 func main() {
